@@ -1,5 +1,5 @@
 # Cards Against Humanity Weighting
-In 2017, Cards Against Humanity (CAH) published data from a dual framed nationally representative telephone survey. The data from their surveys can be found [here](https://thepulseofthenation.com/#future).
+In 2017, Cards Against Humanity (CAH) published data from several dual framed nationally representative telephone surveys. The data from their surveys can be found [here](https://thepulseofthenation.com/#future).
 
 Traditional polling data usually has corresponding survey weights to adjust for sampling design and nonresponse bias. These weights were not available as of writing this program, so to improve the representativeness of the data, I calculated weights that post-stratify to the 2016 Census Estimates of the adult US population based on Age, Race and Gender.
 
